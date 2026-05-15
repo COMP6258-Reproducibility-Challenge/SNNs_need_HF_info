@@ -27,29 +27,31 @@ All extensions (learnable-β, alternative operators, SHD analysis) were implemen
 ---
 
 ## Repository Structure
-HighfreqOp_BetaSweep_Baseline/   Baseline reproduction and operator experiments
-experiments/                 SLURM scripts and code
-iridis_results/              Results (CSVs, logs)
-report_figures/              Final figures used in the report
-report_figures.ipynb         Notebook to regenerate figures
-README.md                    Detailed instructions for these experiments
-learnable_beta/                  Learnable β extension
-configs/                     YAML training configs
-results/                     Outputs from each run
-slurm/                       SLURM job scripts
-train_plif.py                Training with learnable β
-train_beta.py                Training with fixed β (sweep baseline)
-plif_wrapper.py              ParametricMultiStepLIFNode implementation
-README.md                    Detailed instructions for these experiments
-SHD/                             Temporal analysis on Spiking Heidelberg Digits
-train.py                     Main training script
-models.py                    SNN and ANN model definitions
-dataset.py                   SHD data loading
-analyse_spectrum.py          Fourier spectrum analysis
-aggregate_results.py         Results aggregation
-shd.yaml                     Hyperparameters
-README.md                    Detailed instructions for these experiments
-report/                          Final report PDF
+
+- `HighfreqOp_BetaSweep_Baseline/` — Baseline reproduction and operator experiments
+  - `experiments/` — SLURM scripts and code
+  - `iridis_results/` — Results (CSVs, logs)
+  - `report_figures/` — Final figures used in the report
+  - `report_figures.ipynb` — Notebook to regenerate figures
+  - `README.md` — Detailed instructions for these experiments
+
+- `learnable_beta/` — Learnable β extension
+  - `configs/` — YAML training configs
+  - `results/` — Outputs from each run
+  - `slurm/` — SLURM job scripts
+  - `train_plif.py` — Training with learnable β
+  - `train_beta.py` — Training with fixed β (sweep baseline)
+  - `plif_wrapper.py` — ParametricMultiStepLIFNode implementation
+  - `README.md` — Detailed instructions for these experiments
+
+- `SHD/` — Temporal analysis on Spiking Heidelberg Digits
+  - `train.py` — Main training script
+  - `models.py` — SNN and ANN model definitions
+  - `dataset.py` — SHD data loading
+  - `analyse_spectrum.py` — Fourier spectrum analysis
+  - `aggregate_results.py` — Results aggregation
+  - `shd.yaml` — Hyperparameters
+  - `README.md` — Detailed instructions for these experiments
 
 ---
 
