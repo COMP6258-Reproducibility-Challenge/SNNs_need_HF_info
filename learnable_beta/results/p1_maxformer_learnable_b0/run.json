@@ -1,0 +1,23 @@
+{
+  "model_name": "max_former",
+  "seed": 0,
+  "epochs": 150,
+  "default_beta_used": 0.5,
+  "init_tau": 2.0,
+  "best_val_top1": 78.94,
+  "best_val_top5": 94.23,
+  "final_val_top1": 78.44,
+  "final_val_top5": 94.21,
+  "epoch_of_best": 146,
+  "training_time_seconds": 38998.48303818703,
+  "peak_gpu_memory_mb": 6271.88992,
+  "total_parameters": 6602960,
+  "n_extra_learnable_b_params": 28,
+  "system": {
+    "gpu": "NVIDIA L4",
+    "cuda": "12.1",
+    "pytorch": "2.1.0+cu121",
+    "spikingjelly": "0.0.0.0.12",
+    "git_hash": "unknown"
+  }
+}

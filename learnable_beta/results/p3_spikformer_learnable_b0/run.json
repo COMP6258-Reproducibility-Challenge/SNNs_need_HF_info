@@ -1,0 +1,23 @@
+{
+  "model_name": "spikformer",
+  "seed": 0,
+  "epochs": 150,
+  "default_beta_used": 0.5,
+  "init_tau": 2.0,
+  "best_val_top1": 77.57,
+  "best_val_top5": 94.03,
+  "final_val_top1": 77.24,
+  "final_val_top5": 93.79,
+  "epoch_of_best": 147,
+  "training_time_seconds": 54755.45839691162,
+  "peak_gpu_memory_mb": 8284.793856,
+  "total_parameters": 6787577,
+  "n_extra_learnable_b_params": 37,
+  "system": {
+    "gpu": "NVIDIA L4",
+    "cuda": "12.1",
+    "pytorch": "2.1.0+cu121",
+    "spikingjelly": "0.0.0.0.12",
+    "git_hash": "unknown"
+  }
+}
